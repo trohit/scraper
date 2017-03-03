@@ -2,7 +2,7 @@
 # Script to extract hi res pic from unsplash.com
 # and save with a random name.
 ARGC=$#
-if [ "$ARGC" -ne 2 ]; then
+if [ "$ARGC" -ne 1 ]; then
         echo "Usage: $0 <unsplashurl>"
         echo "Usage: $0 'https://unsplash.com/?photo=zR-xfZ3Av44'"
 
